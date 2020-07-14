@@ -1,38 +1,109 @@
-.App {
+.home-div {
+  
+  background-color: rgb(2, 21, 22);
+  background-image: url("./back.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  /* padding-bottom: 300px; */
+  height: 100vh;
+  /* text-align: center; */
+}
+
+.title {
+  
   text-align: center;
+  color: crimson;
+  font-size: 40px;
+  letter-spacing: 10px;
+  /* text-shadow: black 5px 5px 3px; */
+  word-spacing: 10px;
+  border-bottom: solid yellow;
+  border-top: solid yellow;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px ;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-div {
+
+  background-color: yellow;
+  text-align: left;
+  padding: 20px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link {
+  
+  display: inline-flex;
+  font-weight: bolder;
+  font-size: 20px; 
+}
+ span {
+  
+  margin-left: 10px;
+  color: black;
+}
+.product-div {
+
+  background-color: rgb(2, 21, 22);
+  height: 100%;
+  padding: 20px;
+}
+.product-div h1 {
+
+  text-align: center;
+  color: crimson;
+  font-size: 35px;
+  letter-spacing: 5px;
+  /* text-shadow: black 5px 5px 3px; */
+  word-spacing: 10px;
+  border-bottom: solid yellow;
+  border-top: solid yellow;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px ;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-div {
+
+  /* display: flex;
+  margin: auto; */
+  
+}
+.about-div h1 {
+
+  text-align: center;
+  color: crimson;
+  font-size: 35px;
+  letter-spacing: 5px;
+  /* text-shadow: black 5px 5px 3px; */
+  word-spacing: 10px;
+  border-bottom: solid yellow;
+  border-top: solid yellow;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px ;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.about-div {
+
+  background-color: rgb(2, 21, 22);
+  height: 100vh;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
