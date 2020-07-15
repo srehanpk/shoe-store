@@ -44,7 +44,7 @@ function Products() {
       <div className="card-div">
       <Grid container spacing={4} justify="center">
 
-      {Object.entries(shoeDetails).map(([id,{name, url, image, price}]) => {
+      {Object.entries(shoeDetails).map(([id,{name, image, price}]) => {
         return (
 
           <Grid item xs={10} md={4}>

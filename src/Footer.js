@@ -12,7 +12,7 @@ function Footer() {
     <div className="footer" >
     
     
-    <p>The Shoe Store project for Bootcamp by "Rayhan Ahmed" </p>
+    <p>The Shoe Store project for Bootcamp 2020 by "Rayhan Ahmed" </p>
   
     
  

@@ -21,7 +21,7 @@ function NotFound() {
     
     
     
-    <h1 className="title">Sorry<br/>Page Not Found! </h1>
+    <h1 className="nfound">Sorry!!!<br/>Page Not Found. </h1>
   
     
   

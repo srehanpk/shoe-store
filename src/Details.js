@@ -49,6 +49,7 @@ export default function Details() {
         url  :  "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/818-1189-c_2400x.JPG?v=1561373382",
         price: 310,
     },
+    
     }
     
     
