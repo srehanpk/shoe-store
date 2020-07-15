@@ -5,6 +5,7 @@ import Product from './Product';
 import About from './About'
 import Home from './Home';
 import Shoe from './Shoe';
+import Footer from './Footer';
 import {Route, Routes} from "react-router-dom";
 import Products from './Products';
 
@@ -24,16 +25,16 @@ function App() {
    <Route  path='/' element={<Home />} />
 
    
-   <Route  path= '/product' element={<Product />}>
-   <Route path='/' element={<Products />} />
-   <Route path=':id' element={<Shoe />} />
+   <Route  path =  '/product' element = { <Product /> }>
+   <Route  path = '/'         element = { <Products /> } />
+   <Route  path = ':id'       element = { <Shoe /> } />
    </Route>
 
-   <Route  path= '/about' element={<About />} />
+   <Route  path = '/about'    element = { <About /> } />
    
    </Routes>
    
-   
+   <Footer />
       </div>  
   );
 }

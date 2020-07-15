@@ -5,24 +5,23 @@
   background-position: center;
   background-size: cover;
   padding-top: 20px;
-  /* padding-bottom: 300px; */
   height: 100vh;
-  /* text-align: center; */
+  
 }
 
 .title {
   
   text-align: center;
   color: crimson;
-  font-size: 40px;
-  letter-spacing: 10px;
+  font-size: 30px;
+  letter-spacing: 5px;
   /* text-shadow: black 5px 5px 3px; */
-  word-spacing: 10px;
+  word-spacing: 5px;
   border-bottom: solid yellow;
   border-top: solid yellow;
   border-radius: 20px;
   padding: 20px 20px 20px 20px ;
-  width: max-content;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
@@ -90,6 +89,19 @@
   background-color: rgb(2, 21, 22);
   height: 100vh;
   padding: 20px;
+  color: yellow;
+  text-align: center;
+  font-size: larger;
+}
+.about-div address {
+
+  margin-top: 50px;
+  border-top: solid yellow;
+  border-bottom: solid yellow;
+  border-radius: 20px;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
 }
 .shoe-image {
 
@@ -109,6 +121,16 @@
   color: yellow;
   
 }
+.footer {
+
+ background-color: yellow;
+ text-align: center;
+ height: max-content;
+ padding: 1px;
+ font-size: 20px; 
+}   
+  
+
 
 
 

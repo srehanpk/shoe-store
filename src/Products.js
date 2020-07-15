@@ -61,7 +61,7 @@ function Products() {
 
           <Link to={`/product/${id}`}>
             <CardMedia
-              key={id}
+             
               className={classes.media}
               image= {image}
               title= "shoes"
