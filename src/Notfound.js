@@ -17,7 +17,7 @@ function NotFound() {
   return (
     
 
-    <div className="heading" >
+    <div className="notfound" >
     
     
     

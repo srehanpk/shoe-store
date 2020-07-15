@@ -8,6 +8,7 @@ import Shoe from './Shoe';
 import Footer from './Footer';
 import {Route, Routes} from "react-router-dom";
 import Products from './Products';
+import NotFound from './Notfound';
 
 
 
@@ -30,6 +31,7 @@ function App() {
    <Route  path = ':id'       element = { <Shoe /> } />
    </Route>
 
+   <Route  path = '*'         element = { <NotFound /> } />
    <Route  path = '/about'    element = { <About /> } />
    
    </Routes>

@@ -8,9 +8,9 @@ function Navbar() {
 
     <nav className="nav-link">
 
-    <Link  activeclassname="active-class" to='/' ><span>Home</span></Link>
-    <Link  activeclassname="active-class" to='/product' ><span>Product</span></Link>
-    <Link  activeclassname="active-class" to='/about' ><span>About us</span></Link>
+    <Link  to='/' ><span>Home</span></Link>
+    <Link  to='/product' ><span>Product</span></Link>
+    <Link  to='/about' ><span>About us</span></Link>
 
     </nav>
     
