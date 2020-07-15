@@ -1,7 +1,7 @@
 .home-div {
   
   background-color: rgb(2, 21, 22);
-  background-image: url("./back.jpg");
+  background-image: url("./back.jpg") ;
   background-position: center;
   background-size: cover;
   padding-top: 20px;
@@ -36,14 +36,20 @@
 
 .nav-link {
   
-  display: inline-flex;
-  font-weight: bolder;
+  font-weight: bold;
 }
 span {
-  
   margin-left: 10px;
   color: rgb(2, 21, 22);
+  
 }
+.cart {
+
+  color: rgb(2, 21, 22);
+  float: right;
+  margin-right: 10px;
+}
+
 
 .product-div, .notfound {
 
@@ -139,10 +145,7 @@ span {
 
 
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+
+
 
 

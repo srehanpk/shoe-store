@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 function Navbar() {
   return (
@@ -8,10 +9,10 @@ function Navbar() {
 
     <nav className="nav-link">
 
-    <Link  to='/' ><span>Home</span></Link>
-    <Link  to='/product' ><span>Product</span></Link>
-    <Link  to='/about' ><span>About us</span></Link>
-
+    <NavLink  activeClassName= "active" to='/' >         <span>Home</span></NavLink>
+    <NavLink  activeClassName= "active"   to='/product' ><span>Product</span></NavLink>
+    <NavLink  activeClassName= "active"  to='/about' >   <span>About us</span></NavLink>
+    <NavLink className="cart" to = "/cart"><ShoppingCartIcon/></NavLink>
     </nav>
     
     </div>
