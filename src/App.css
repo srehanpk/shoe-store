@@ -54,15 +54,15 @@
 
   text-align: center;
   color: crimson;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 5px;
   /* text-shadow: black 5px 5px 3px; */
-  word-spacing: 10px;
+  word-spacing: 5px;
   border-bottom: solid yellow;
   border-top: solid yellow;
   border-radius: 20px;
   padding: 20px 20px 20px 20px ;
-  width: max-content;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
@@ -71,15 +71,15 @@
 
   text-align: center;
   color: crimson;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 5px;
   /* text-shadow: black 5px 5px 3px; */
-  word-spacing: 10px;
+  word-spacing: 5px;
   border-bottom: solid yellow;
   border-top: solid yellow;
   border-radius: 20px;
   padding: 20px 20px 20px 20px ;
-  width: max-content;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 
