@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import {Card, Grid, Paper, CardContent, CardActions, CardActionArea, CardMedia} from '@material-ui/core';
@@ -12,9 +12,7 @@ import { Link } from "react-router-dom"
 
 
 const useStyles = makeStyles({
-  root: {
-    marginLeft: "20",
-  },
+
   media: {
     height: 150,
     width: 250,
@@ -23,7 +21,7 @@ const useStyles = makeStyles({
   paper: {
     display: "flex",
     justifyContent: "center",
-    // backgroundColor: "transparent",
+    backgroundColor: "transparent",
     width: "max-content",
     margin: "auto",
   },
@@ -32,11 +30,14 @@ const useStyles = makeStyles({
 
 function Products() {
 
+  const [shoeId, setShoeId] = useState();
+  console.log(shoeId);
+
   const classes = useStyles();
 
   const {shoeDetails}= Details();
-  // const shoes = Object.entries(shoeDetails).map((id) => id );
-  // console.log(shoes);
+  
+  
 
   return (
    
@@ -50,7 +51,7 @@ function Products() {
           <Grid item xs={10} md={4}>
         
           <Paper className={classes.paper}>
-          <Card className={classes.root} >
+          <Card>
           
           <CardActionArea >
           <CardContent >
@@ -76,7 +77,7 @@ function Products() {
           </CardActionArea>
           
           <CardActions>
-            <Button size="large" color="primary">
+            <Button value={id} onClick={()=> setShoeId({id})} size="large" color="primary">
               Add to cart
             </Button>
           </CardActions>
