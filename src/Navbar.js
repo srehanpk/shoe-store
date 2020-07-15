@@ -11,7 +11,6 @@ function Navbar() {
     <Link  activeclassname="active-class" to='/' ><span>Home</span></Link>
     <Link  activeclassname="active-class" to='/product' ><span>Product</span></Link>
     <Link  activeclassname="active-class" to='/about' ><span>About us</span></Link>
-    <Link  activeclassname="active-class" to='/launch' ><span>Launch</span></Link>
 
     </nav>
     

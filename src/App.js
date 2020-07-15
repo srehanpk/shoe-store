@@ -4,8 +4,9 @@ import Navbar from './Navbar';
 import Product from './Product';
 import About from './About'
 import Home from './Home';
-import Launch from './Launch';
-import {Route, Routes,     } from "react-router-dom";
+import Shoe from './Shoe';
+import {Route, Routes} from "react-router-dom";
+import Products from './Products';
 
 
 
@@ -21,8 +22,13 @@ function App() {
    <Routes>
 
    <Route  path='/' element={<Home />} />
-   <Route path='/launch' element={<Launch />} />
-   <Route  path= '/product' element={<Product />}/>
+
+   
+   <Route  path= '/product' element={<Product />}>
+   <Route path='/' element={<Products />} />
+   <Route path=':id' element={<Shoe />} />
+   </Route>
+
    <Route  path= '/about' element={<About />} />
    
    </Routes>
