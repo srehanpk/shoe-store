@@ -42,7 +42,7 @@
 span {
   
   margin-left: 10px;
-  color: gray;
+  color: rgb(2, 21, 22);
 }
 .active-class {
 
@@ -129,7 +129,7 @@ span {
 }
 .footer {
 
- color: crimson; 
+ color: rgb(2, 21, 22); 
  background-color: yellow;
  text-align: center;
  height: max-content;
