@@ -116,7 +116,7 @@ span {
 .about-div  {
 
   background-color: rgb(2, 21, 22);
-  height: 100vh;
+  height: 100%;
   padding: 10px;
   color: yellow;
   text-align: center;
