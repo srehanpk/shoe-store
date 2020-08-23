@@ -9,10 +9,10 @@ function Navbar() {
 
     <nav className="nav-link">
 
-    <NavLink  activeClassName= "active" to='/' >         <span>Home</span></NavLink>
-    <NavLink  activeClassName= "active"   to='/product' ><span>Product</span></NavLink>
-    <NavLink  activeClassName= "active"  to='/about' >   <span>About us</span></NavLink>
-    <NavLink className="cart" to = "/cart"><ShoppingCartIcon/></NavLink>
+    <NavLink className="home" activeClassName= "active"  to = '/' > Home</NavLink>
+    <NavLink className="home" activeClassName= "active"  to = '/product' >Product</NavLink>
+    <NavLink className="home" activeClassName= "active"  to = '/about' > About us</NavLink>
+    <NavLink className="cart" activeClassName= "active"    to = '/cart' > <ShoppingCartIcon/></NavLink>
     </nav>
     
     </div>

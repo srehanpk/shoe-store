@@ -1,4 +1,4 @@
-
+          
 
 
 
@@ -31,8 +31,8 @@ export default function Details() {
     Shoe4:{
         
         name: "Sports Shoe-4",
-        image: "./shoe-images/4.jpeg",
-        url  :  "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/851-1251-c_2400x.JPG?v=1573496007",
+        image: "./shoe-images/4.webp",
+        url  :  "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/828-2030-_2_2400x.jpg?v=1591259658",
         price: 200,
     },
     Shoe5:{
